@@ -1,0 +1,25 @@
+$ulbg-color: white;
+$a-subnav-color: black;
+$text-align-color: red;
+$text-align: center;
+
+.ulbg {
+  background-color: $ulbg-color;
+}
+
+.asubnav {
+  color: $a-subnav-color;
+}
+
+.img {
+  padding: 10px !important;
+}
+
+.textalign {
+  text-align: $text-align;
+  color: $text-align-color;
+}
+
+.nav {
+  background-color: $ulbg-color;
+}

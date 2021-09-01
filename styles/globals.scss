@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,800,800i,900i&display=swap");
+$background: white;
+$text: "Nunito";
+$color: rgb(0, 0, 0);
 
 html,
 body {
-  background: rgba(255, 255, 255, 0.808);
-  color: #333;
-  font-family: "Nunito";
+  background: $background;
+  color: $color;
+  font-family: $text;
 }
 
 .content {
@@ -32,7 +34,7 @@ footer {
 
 nav {
   display: flex;
-  background-color: black;
+  background-color: $color;
   justify-content: flex-start;
   align-items: center;
   padding-left: 20px;
@@ -44,7 +46,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(10, 8, 8);
+  background-color: $color;
 }
 
 li {
@@ -57,8 +59,4 @@ li {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.img {
-  padding: 10px;
 }

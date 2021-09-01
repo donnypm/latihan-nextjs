@@ -1,9 +1,9 @@
 import Link from "next/link";
-import styles from "/styles/brands.module.css";
+import styles from "/styles/brands.module.scss";
 
 const subNavbarbrands = () => {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <ul className={styles.ulbg}>
         <li>
           <Link href="./nike">

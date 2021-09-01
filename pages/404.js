@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { useEffect } from "react";
+import styles from "../styles/brands.module.scss";
 
 const NotFound = () => {
   const router = useRouter();
@@ -11,8 +12,9 @@ const NotFound = () => {
       router.push("/");
     }, 3000);
   }, []);
+
   return (
-    <div className="NotFound">
+    <div className="NotFound" className={styles.textalign}>
       <h1>Maafkan...</h1>
       <h2> halaman yang anda tuju tidak ditemukan</h2>
       <p>

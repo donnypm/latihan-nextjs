@@ -1,5 +1,5 @@
 .ulbg {
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
 }
 
 .asubnav {
@@ -8,4 +8,13 @@
 
 .img {
   padding: 10px;
+}
+
+.textalign {
+  text-align: center;
+  color: red;
+}
+
+.nav {
+  background-color: white;
 }

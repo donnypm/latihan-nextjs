@@ -1,0 +1,9 @@
+$borderColor: #0070f3;
+$fontColor: #0070f3;
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: $fontColor;
+  border-color: $borderColor;
+}
