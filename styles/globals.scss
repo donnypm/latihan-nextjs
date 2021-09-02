@@ -65,3 +65,13 @@ li {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.img-items {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  width: 100%;
+}

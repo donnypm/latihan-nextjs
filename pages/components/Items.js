@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "/styles/Home.module.scss";
+import styles2 from "/styles/brands.module.scss";
 
 const Items = (props) => {
   return (
