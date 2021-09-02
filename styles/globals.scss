@@ -34,11 +34,17 @@ footer {
 
 nav {
   display: flex;
-  background-color: $color;
   justify-content: flex-start;
   align-items: center;
   padding-left: 20px;
   color: #eaeaea;
+  background: rgb(46, 41, 130);
+  background: linear-gradient(
+    90deg,
+    rgba(46, 41, 130, 1) 0%,
+    rgba(9, 84, 121, 1) 44%,
+    rgba(21, 95, 113, 1) 100%
+  );
 }
 
 ul {
@@ -46,7 +52,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: $color;
 }
 
 li {

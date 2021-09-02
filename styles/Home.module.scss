@@ -1,9 +1,20 @@
 $borderColor: #0070f3;
 $fontColor: #0070f3;
+$font: "Rockwell";
+$font-size: 16px;
 
 .card:hover,
 .card:focus,
 .card:active {
   color: $fontColor;
   border-color: $borderColor;
+}
+
+.imgitems {
+  border-radius: 10px;
+}
+
+.items {
+  font-family: $font;
+  font-size: $font-size;
 }
